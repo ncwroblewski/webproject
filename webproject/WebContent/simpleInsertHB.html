@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+header {
+    background-color:red;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:red;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Flight Data</h1>
+</header>
+
+<nav>
+<a href="/webproject/simpleSearchHB.html">Search Flight Data</a> <br>
+</nav>
+
+<section>
+	<h1>Flight Information Input</h1>
+	
+	<form action="SimpleInsertHB" method="POST">
+	
+		Flight Number: <input type="text" name="flightNumber"> <br />
+		Departure Time: <input type="text" name="departureTime"> <br />
+		ETA: <input type="text" name="eta"> <br />
+		Plane Number: <input type="text" name="planeNumber"> <br />
+		Destination: <input type="text" name="destination"> <br />
+		Travel Distance: <input type="text" name="travelDistance"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
